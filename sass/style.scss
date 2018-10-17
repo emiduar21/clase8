@@ -1,0 +1,65 @@
+@import "reset"
+@import "variables"
+
+
+
+$fuente-titulos: arial, helvetica, sans-serif;
+
+
+header{
+	background: $color5;
+	padding-top: 100px 0;
+
+
+	h1{
+		color: $color1;
+	}
+	h2{
+		color: $color2;
+	}
+
+	p{
+		color: pink;
+		a{
+			color:$color3;
+			&:hover{
+				color:$color4;
+			}
+		}
+	}
+}
+
+#s1{
+	h3{
+		background: $color5;
+
+	}
+	p{
+		font-size: initial;
+		&.destacado{
+			font-weight: bold;
+		}
+	}
+}
+
+#telefe{
+	div{
+	
+	width: 100px;
+	 height: 100px;
+ 	display: inline-block;
+	border-radius: 50%;
+	background: green;
+
+	&:first-child{
+		background:blue;
+	}
+
+	&:last-child{
+		background: red;
+	}
+	}
+
+	
+}
+
